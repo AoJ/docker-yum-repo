@@ -6,7 +6,7 @@ MAINTAINER AooJ <aooj@n13.cz>
 #    chmod 0755 /usr/bin/systemctl
 
 
-ARG CDH_VERSION=5.13.2
+ARG CDH_VERSION=5.14.1
 ENV CDH_VERSION=$CDH_VERSION
 ENV GPG_KEY=https://archive.cloudera.com/cdh5/redhat/7/x86_64/cdh/RPM-GPG-KEY-cloudera
 
