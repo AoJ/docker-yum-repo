@@ -29,7 +29,7 @@ RUN yum install -y reposync createrepo httpd                                    
     rm -rf /var/cache/yum
 
 
-VOLUMES ["/var/www/html"]
+VOLUME ["/var/www/html"]
 
 ENTRYPOINT ["/usr/sbin/httpd"]
 CMD ["-DFOREGROUND"]
